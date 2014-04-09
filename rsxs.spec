@@ -12,7 +12,7 @@ BuildRequires:	pkgconfig(gl) pkgconfig(glu) pkgconfig(libpng)
 BuildRequires:	pkgconfig(openal) pkgconfig(vorbis)
 Summary:	Really Slick XScreenSavers
 Group:		Graphical desktop/Other
-Requires:	xscreensaver-base xscreensaver-gl
+Requires:	xscreensaver-base >= 5.26-2 xscreensaver-gl
 
 %description
 The Really Slick XScreenSavers package is an X11/GLX port of the
