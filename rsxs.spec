@@ -10,6 +10,7 @@ URL:		http://rsxs.sourceforge.net/
 BuildRequires:	pkgconfig(sm) pkgconfig(ice) pkgconfig(xmu) pkgconfig(xt)
 BuildRequires:	pkgconfig(gl) pkgconfig(glu) pkgconfig(libpng)
 BuildRequires:	pkgconfig(openal) pkgconfig(vorbis)
+BuildRequires:	xscreensaver-base >= 5.26-2
 Summary:	Really Slick XScreenSavers
 Group:		Graphical desktop/Other
 Requires:	xscreensaver-base >= 5.26-2 xscreensaver-gl
