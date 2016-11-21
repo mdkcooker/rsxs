@@ -1,6 +1,6 @@
 Name:		rsxs
 Version:	1.0
-Release:	1
+Release:	2
 License:	GPLv3
 Source0:	http://sourceforge.net/projects/%{name}/files/%{name}/%{version}/%{name}-%{version}.tar.gz
 Patch0:		rsxs-1.0-add-missing-linkage.patch
@@ -27,7 +27,7 @@ autoreconf -fiv
 
 %build
 %global optflags %{optflags} -Ofast
-%configure2_5x	--with-xscreensaver \
+%configure	--with-xscreensaver \
 		--with-hackdir=%{_bindir} \
 		--with-moduledir=%{_datadir}/xscreensaver/hacks.conf.d \
 		--with-defaultdir \
